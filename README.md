@@ -3,12 +3,12 @@
 This project demonstrates basic CRUD (Create, Read, Update, Delete) operations using Python with MongoDB. A Docker container is set up with MongoDB, and Python scripts interact with the MongoDB instance to perform the CRUD operations.
 
 Prerequisites
-Docker installed on your machine
-Python installed (version 3.x recommended)
-Project Structure
-Dockerfile: Contains the Docker configuration to set up a MongoDB container.
-init-mongo.js: Initialization script for MongoDB to set up the database and collection.
-script.py: Python script to perform CRUD operations.
+- Docker installed on your machine
+- Python installed (version 3.x recommended)
+- Project Structure
+- Dockerfile: Contains the Docker configuration to set up a MongoDB container.
+- init-mongo.js: Initialization script for MongoDB to set up the database and collection.
+- main.py: Python script to perform CRUD operations.
 
 Setup Instructions
 1. Build and Run MongoDB Docker Container
