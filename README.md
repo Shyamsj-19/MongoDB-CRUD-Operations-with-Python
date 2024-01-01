@@ -10,14 +10,14 @@ Prerequisites
 - init-mongo.js: Initialization script for MongoDB to set up the database and collection.
 - main.py: Python script to perform CRUD operations.
 
-Setup Instructions
+##Setup Instructions
 1. Build and Run MongoDB Docker Container
 Navigate to the project directory and execute the following commands to build and run the Docker container:
 
-# Build Docker image
+### Build Docker image
 docker build -t mongodb-crud .
 
-# Run Docker container
+### Run Docker container
 docker run -d -p 27017:27017 mongodb-crud
 
 2. Initialize MongoDB
